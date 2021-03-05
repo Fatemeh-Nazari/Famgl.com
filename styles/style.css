@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'vazir-FD';
+    src: url('../fonts/Vazir-Light-FD.woff');
+}
+
+body{
+    font-family: 'vazir-FD';
+}
+
+.main-header{
+    width: 100%;
+    background-color: #30475e;
+    padding: 20px 50px;
+}
+
+.main-header > div{
+    display: inline-block;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 50px);
+}
+
+.main-nav-item{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav-item{
+    display: inline-block;
+}
+
+a{
+    color: #fff;
+}
