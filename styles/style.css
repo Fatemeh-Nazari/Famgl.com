@@ -21,15 +21,22 @@ body{
 
 .main-header > div{
     display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header--logo{
+    font-size: 25px;
+    text-decoration: none;
 }
 
 .main-nav{
     display: inline-block;
     text-align: right;
-    width: calc(100% - 50px);
+    width: calc(100% - 90px);
+    vertical-align: middle;
 }
 
-.main-nav-item{
+.main-nav-items{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -37,8 +44,15 @@ body{
 
 .main-nav-item{
     display: inline-block;
+    margin: 0 16px;
 }
 
-a{
+.main-nav-item a{
+    color: #bbdefe;
+    text-decoration: none;
+}
+
+.main-nav-item a:hover,
+.main-nav-item a:active{
     color: #fff;
 }
