@@ -70,6 +70,27 @@ body{
     color: #dddddd;
 }
 
+#person{
+    display: flex;
+    
+}
+
+form{
+    font-weight: bold;
+}
+
+input[type='text'],[type='email']{
+    width: 50%;
+    height: 25px;
+}
+
+#left{
+    height: 300px;
+    width: 300px;
+    background-color: rosybrown;
+    display: flex;
+}
+
 .main-footer{
     background-color: #201f1f;
     padding: 30px;
@@ -78,10 +99,16 @@ body{
 .logo-footer{
     width: 40px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .nav-footer a{
     padding: 2px;
     text-decoration: none;
+    color: #fff;
 }
+
+.nav-footer{
+    font-size: 30px;
+}
+
